@@ -36,4 +36,4 @@ jobs:
           user_email: github-actions[bot]@users.noreply.github.com
 
       - name: Print deployed URL
-        run: echo "✅ Your website is deployed at: https://Ammara-Khalil.github.io/fashion/"
+        run: echo "Your website is deployed at" https://Ammara-Khalil.github.io/fashion/
