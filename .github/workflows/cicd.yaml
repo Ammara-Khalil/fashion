@@ -1,7 +1,7 @@
 name: Vite React CI/CD
 
 permissions:
-  contents: write  # <-- allow push to repo
+  contents: write  # allow GitHub Actions to push
 
 on:
   push:
@@ -35,3 +35,6 @@ jobs:
           publish_dir: ./dist
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
+
+      - name: Print GitHub Pages URL
+        run: echo "✅ Your website is deployed at: https://Ammara-Khalil.github.io/fashion/"
